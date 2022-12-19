@@ -24,20 +24,20 @@ python init_datasets.py
 ``` bash
 python init_datasets.py --set test
 ```
-- Download checkpoint from [here](), unzip and put into cache, Then run the following command to get inference result 
+- Download checkpoint from [here](https://drive.google.com/drive/folders/1g1_4I2s8E9UScJC6pfOUB-NuJm9ZkGOh?usp=share_link), unzip and put into cache, Then run the following command to get inference result 
 ``` bash
 python inference.py --img_path ./images/test
 ```
 
 # Train
 ## 1.Efficient_b4
-``bash
+``` bash
 python train.py --tag Efficient_SAM_CE_default --batch_size 8 --size 380
-``
+```
 ## 2.Swinv2
-``bash
+``` bash
 python train.py --tag Swinv2_SAM_CE_ranaug_ocy_25_lr10_3 --batch_size 8 --size 384 --module 'Swinv2'
-``
+```
 
 # Cite
 ```bibtex
