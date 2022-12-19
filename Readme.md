@@ -3,10 +3,10 @@ Competition URL:https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb 
 Private Leaderboard: 20 / 446
 
 # Requirements
-efficientnet-pytorch==0.7.1
-timm==0.6.11
-torch==1.12.1+cu113
-torchvision==0.13.1+cu113
+efficientnet-pytorch==0.7.1 \
+timm==0.6.11 \
+torch==1.12.1+cu113 \
+torchvision==0.13.1+cu113 \
 
 ## Install package
 ``` bash
