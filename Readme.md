@@ -32,11 +32,11 @@ python inference.py --img_path ./images/test
 # Train
 ## 1.Efficient_b4
 ``` bash
-python train.py --tag Efficient_SAM_CE_default --batch_size 8 --size 380
+python train.py --folder ./images --tag Efficient_SAM_CE_default --batch_size 8 --size 380
 ```
 ## 2.Swinv2
 ``` bash
-python train.py --tag Swinv2_SAM_CE_ranaug_ocy_25_lr10_3 --batch_size 8 --size 384 --module 'Swinv2'
+python train.py --folder ./images --tag Swinv2_SAM_CE_ranaug_ocy_25_lr10_3 --batch_size 8 --size 384 --module 'Swinv2'
 ```
 
 # Cite
