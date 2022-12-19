@@ -15,17 +15,17 @@ pip install timm==0.6.11
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 # Dataset preprocessing
-- download the traning dataset from the [official](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb). and unzip into image/data, Then run the following command to spilt all data into train/valid sets.
+- download the traning dataset from the [official](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb). and unzip into `image/data`, Then run the following command to spilt all data into train/valid sets.
 ``` bash
 python init_datasets.py
 ```
 
 # Inference
-- First, download the test dataset from the [official](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb). and unzip into image/private_test,Then run the following command.
+- First, download the test dataset from the [official](https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb). and unzip into `image/private_test`,Then run the following command.
 ``` bash
 python init_datasets.py --set test
 ```
-- Download checkpoint from [here](https://drive.google.com/drive/folders/1g1_4I2s8E9UScJC6pfOUB-NuJm9ZkGOh?usp=share_link), unzip and put into cache, Then run the following command to get inference result 
+- Download checkpoint from [here](https://drive.google.com/drive/folders/1g1_4I2s8E9UScJC6pfOUB-NuJm9ZkGOh?usp=share_link), unzip and put into `cache`, Then run the following command to get inference result 
 ``` bash
 python inference.py --img_path ./images/test
 ```
