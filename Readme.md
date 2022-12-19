@@ -6,7 +6,7 @@ Private Leaderboard: 20 / 446
 efficientnet-pytorch==0.7.1 \
 timm==0.6.11 \
 torch==1.12.1+cu113 \
-torchvision==0.13.1+cu113 \
+torchvision==0.13.1+cu113
 
 ## Install package
 ``` bash
